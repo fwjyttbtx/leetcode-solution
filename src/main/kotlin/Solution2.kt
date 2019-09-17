@@ -7,11 +7,12 @@
  *     var next: ListNode? = null
  * }
  */
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
-
 class Solution2 {
+
+    class ListNode(var `val`: Int) {
+        var next: ListNode? = null
+    }
+
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val topNode = ListNode(0)
         var l1Next = l1
